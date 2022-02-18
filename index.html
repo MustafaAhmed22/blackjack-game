@@ -6,19 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    
+     <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" 
+    href="style.css">
 </head>
 
 <body>
-    <h1>BlackJack</h1>
+    <h1 class="animate1 animate__pulse">BlackJack</h1>
     <div class="playground">
         <h5>DEALER</h5>
         <h5 id="dealer-score">0</h5>
         <div id="dealer">
         </div>
         <hr class="separator">
-        <h5>YOU</h5>
-        <h5 id="player-score">0</h5>
+        <h5 >YOU</h5>
+        <h5 id="player-score" class="animate__pulse">0</h5>
         <div id="player">
         </div>
     </div>
@@ -27,6 +32,7 @@
         <button id="stay-btn">STAY</button>
         <button id="play-again">PLAY AGAIN</button>
     </div>
+    <button id="aniamte_button" class="animate__flash animate__shakeY">hello</button>
     <script src="main.js"></script>
 </body>
 
