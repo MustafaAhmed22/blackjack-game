@@ -110,14 +110,12 @@ body h1 {
 
 
 
-#aniamte_button 
-{
+#aniamte_button {
     width: 60px;
     height: 50px;
     background-color: chocolate;
 }
-.animate__flash .animate__shakeY :hover {
-    width: 60px;
-    height: 50px;
-    background-color: chocolate;
+.animate__flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
 }
