@@ -62,7 +62,11 @@ h5{
     .playing-card p {
         font-size: 35px;
     }
+    #play-again {
+        margin-top: 5px;
+    }
 }
+
 @media (pointer: fine) {
     * {
         cursor: none;
